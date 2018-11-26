@@ -105,7 +105,7 @@ markdown: kramdown
 #sass:
 #  style: compressed
 exclude: ['site.bat','compose.rb','README.md']
-include: ['_pages','.htaccess']
+include: ['_pages','_aboutus','.htaccess']
 defaults:
   - scope:
       path: _pages
