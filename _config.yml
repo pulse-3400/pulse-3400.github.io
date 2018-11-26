@@ -119,7 +119,7 @@ defaults:
   -scope: 
       path: _aboutus
    values:
-      layout: post
+      layout: aboutus
   - scope:
       path: _drafts
     values:
