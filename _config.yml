@@ -116,10 +116,6 @@ defaults:
       path: _posts
     values:
       layout: post
-  -scope: 
-      path: _aboutus
-   values:
-      layout: aboutus
   - scope:
       path: _drafts
     values:
