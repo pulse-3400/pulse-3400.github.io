@@ -28,9 +28,8 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: Who We Are
-  text: We have designed and fabricated an autonomous robot that can navigate and map out a maze with treasures in 
-  the shortest possible time. Come meet out robot! \n Our Team \n Rebecca Bell | Sidarth Giddu | Alexander Hatzis | Chloe Kuo
+  title: Our Team
+  text: Rebecca Bell | Sidarth Giddu | Alexander Hatzis | Chloe Kuo
 # - displayed at the bottom
 closing-head: ECE 3400
 closing-para: Intelligent Physical Systems
