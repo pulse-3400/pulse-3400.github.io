@@ -1,0 +1,33 @@
+---
+key: 3
+title: Who We Are
+permalink: /aboutUs/
+options: fullwidth
+excerpt: We have designed and fabricated an autonomous robot that can navigate and map out a maze with treasures in the shortest possible time. Check out our robot!
+image: pic01.jpg
+background-image: pic01.jpg
+---
+
+{%
+if site.categories.milestones %}
+<div class="table-wrapper">
+  <table>
+    <tbody>{%
+      include fn_groupsort_reverse.html unsorted=site.categories.milestones groupby='priority' sortby='date'
+%}{%  for work in sorted_list %}
+      <tr>
+        <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
+        <td>{{ work.date | date: "%b %Y" }}</td>
+        <td>{{ work.excerpt | strip_html | truncatewords: 18 }}</td>
+        <td>
+          {% include techlist.html %}
+        </td>
+      </tr>{%
+      endfor %}
+    </tbody>
+  </table>
+</div>{%
+  if site.works_in_progress %}
+  <div class="works_inprogress">In-progress, more to come.</div>{%
+  endif %}{%
+endif
