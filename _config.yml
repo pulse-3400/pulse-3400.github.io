@@ -117,7 +117,7 @@ defaults:
     values:
       layout: post
   -scope: 
-      path: _aboutUs
+      path: _aboutus
    values:
       layout: post
   - scope:
