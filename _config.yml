@@ -29,9 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Our Team
-  text: Rebecca Bell | Sidarth Giddu | Alexander Hatzis | Chloe Kuo
-  
-  We are Electrical & Computer Engineering Juniors who have designed and fabricated an autonomous robot that is able to navigate and map out a maze with treasures, for our class [ECE 3400](https://cei-lab.github.io/ece3400-2018/).
+  text: Rebecca Bell | Sidarth Giddu | Alexander Hatzis | Chloe Kuo/We are Electrical & Computer Engineering Juniors who have designed and fabricated an autonomous robot that is able to navigate and map out a maze with treasures, for our class [ECE 3400](https://cei-lab.github.io/ece3400-2018/).
 # - displayed at the bottom
 closing-head: ECE 3400
 closing-para: Intelligent Physical Systems
