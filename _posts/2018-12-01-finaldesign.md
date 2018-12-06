@@ -31,7 +31,7 @@ Throughout the Fall 2018 semester, we created a robot that could:
 **Our robot's software is [open source code](https://github.com/pulse-3400/labs)!**
 
 ### Modifications to Robot Design
-Beyond the baseline requirements from the labs and milestones required in class, we made several improvements to our robot so that it would have the best chance when competing against other robots in the final competition. We document these additions and improvements in this section.
+Beyond the baseline requirements from the [labs](https://pulse-3400.github.io/labs/) and [milestones](https://pulse-3400.github.io/milestones/) required in class, we made several improvements to our robot so that it would have the best chance when competing against other robots in the final competition. We document these additions and improvements in this section.
 
 #### Better Maze-Solving Algorithm
 The final robot code had several main sections. Here, we will discuss the sections directly relevant to maze solving and locomotion.
