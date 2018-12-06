@@ -14,16 +14,15 @@ After spending hours upon hours in lab, we were very excited on competition day 
   <i>Team Pulse on Competition Day.</i>
 </p>
 
-In round 1, we competed against teams 2, 3, and 4. In round 2, we competed against teams 2 and 3. 
-Unfortunately, our robot's performance was not what we had expected, and we didn't make it to the round 3 like we had hoped.
+Our robot competed in rounds 1 and 2 during the ECE 3400 Competition during [Cornell Robotics Day](https://www.ece.cornell.edu/events/robotics-day). Unfortunately, our robot's performance was not what we had expected, and we didn't make it to the round 3 like we had hoped.
 
-**Day of Competition**
+### Day of Competition
 {% include post_youtube.html id="hEEImKPc57E" %}
 
 
-**Day before the Competition**
+### Day before the Competition
 {% include post_youtube.html id="tNI07SRk_yc" %}
 
 We explain why we believe our robot was faulty during the competition in our [final robot design](https://pulse-3400.github.io/aboutus/finaldesign.html).
 
-Congrats to [Team Angry](https://ece3400team28.github.io/website/), who won the competition!
+**Congrats to [Team Angry](https://ece3400team28.github.io/website/), who won the competition!**
