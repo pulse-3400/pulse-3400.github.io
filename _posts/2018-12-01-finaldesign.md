@@ -141,3 +141,6 @@ With deadlines quickly approaching, it was difficult for us to implement everyth
 - Less sensitive, but more accurate IR robot sensing. We set our IR sensor's threshold to be very sensitive just in case we were going to collide with another robot, but sometimes, our robot accidentally read its own IR hat and believed it was seeing another robot. We unfortunately found this out during the final competition, when our robot reached a "dead end," and our own IR sensor detected our own IR hat because our hat had bounced off of the walls, and our sensor was at a very low threshold. See the video below for evidence of this. To eliminate this problem, we should have programmed our robot to not have done our IR sensing if there was a wall in front of it. If this were the case, there would not be a robot in front of ours anyways, and the IR hat wouldn't bounce off the walls.
 
 {% include post_youtube.html id="Bjb8jFsuhxE" %}
+
+### Final Competition
+**See how our robot did in the [final competition](https://pulse-3400.github.io/aboutus/finalcompetition.html)!**
