@@ -25,7 +25,7 @@ Our robot competed in rounds 1 and 2 during the ECE 3400 Competition during [Cor
 
 We mapped a small portion of the maze (some incorrect wall detections due to other robots and collisions):
 <p align="center">
-  <img src="/images/team.jpg" width="300px" height="280px"/><br/>
+  <img src="/images/mazemap.png" width="300px" height="280px"/><br/>
   <i>Last Maze Mapping during Round 2.</i>
 </p>
 
