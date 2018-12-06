@@ -6,6 +6,7 @@ categories: aboutus
 background-image: ourrobot2.jpg
 
 ---
+### Our Finalized Robot
 
 <p align="center">
   <img src="/images/finalrobot.jpg" width="600px" height="450px"/><br/>
@@ -21,9 +22,14 @@ Throughout the Fall 2018 semester, we created a robot that could:
 * Communicate using radios to update a GUI 
 * Detect treasures using image processing
 
-Final robot cost:
+Final robot cost: $86.00
 
--...
+- Pololu Line Sensors (3 @ $3.00): $9.00
+- Short Range IR sensors (3 @ $7.00): $21.00
+- Camera: $14.00
+- Parallax servos (2 @ $13.00): $26.00
+- Arduino Uno: $16.00
+
 
 ### Modifications to Final Robot Design
 
