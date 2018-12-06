@@ -30,7 +30,7 @@ C1 is a 25MHz clock. It has a duty cycle of 50%. This clock should be used inste
 
 C2 is a 50MHz clock. It has a duty cycle of 50%. Use this clock instead of CLOCK_50 because the other clocks are phase-locked to this clock. 
 
-C0, C1, and C2 are used as inputs to the RAM M9K module, the VGA Driver module, and the image processor module. To determine which one, look at what the clock is being used for and decide how fast reading and writing needs to happen. 
+C0, C1, and C2 are used as inputs to the RAM M9K module, the VGA Driver module, and the image processor module. To determine which one to use, look at what the clock is being used for and decide how fast reading and writing needs to happen. 
 
 ### Timing Diagram
 Here is an example of a timing diagram. In this example, a new row begins after 2 bytes are read and a new frame is ready to be read after 3 rows.
