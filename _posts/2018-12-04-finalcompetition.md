@@ -3,7 +3,7 @@ priority: 0.6
 title: Final Competition
 excerpt: Results and Videos
 categories: aboutus
-background-image: lab2-cover.png
+background-image: competition.png
 
 ---
 
@@ -15,7 +15,7 @@ After spending hours upon hours in lab, we were very excited on competition day 
 </p>
 
 In round 1, we competed against teams 2, 3, and 4. In round 2, we competed against teams 2 and 3. 
-Unfortunately, our robot's performance was not what we had expected.
+Unfortunately, our robot's performance was not what we had expected, and we didn't make it to the round 3 like we had hoped.
 
 **Day of Competition**
 {% include post_youtube.html id="EsdIOOgrcZw" %}
