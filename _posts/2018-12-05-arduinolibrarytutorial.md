@@ -11,7 +11,7 @@ background-image: tutorial1.png
 
 ## Writing Your Own (Basic) Library for Your Robot
 
-<center><b>by Chloe Kuo</b></center>
+<p align="center"><b>by Chloe Kuo</b></p>
 
 ### Overview
 While it's entirely possible to write all of your robot's code in a single Arduino sketch, doing so will likely make debugging difficult. After all, your robot will have line sensing code, turning logic, wall sensing code, FFT code, perhaps a DFS algorithm, a maze data structure, and far more!
