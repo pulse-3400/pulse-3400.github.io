@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-excerpt: Learn
+excerpt: Learn Here
 tags: featured
 permalink: /tutorials/
 categories:
