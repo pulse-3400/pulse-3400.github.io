@@ -11,12 +11,12 @@ background-image: tutorial1.png
 ## Camera Timing
 
 ### What Clocks are Used?
-*PCLK
-*HREF
-*VSYNC
-*C0
-*C1
-*C2
+* PCLK
+* HREF
+* VSYNC
+* C0
+* C1
+* C2
 
 PCLK is the pixel clock. This clock determines the speed at which the data output is being transmitted. This means that at the positive edge of PCLK, a new byte is ready to read. 
 
