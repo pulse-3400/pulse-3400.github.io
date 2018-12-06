@@ -89,9 +89,20 @@ Each time the robot backtracks to a new square, the getTurn function is called a
 This method was used to successfully explore a number of large mazes, including some nine by six and nine by seven test mazes in well under the five minute limit.
 
 #### Mechanics
-While iteratively testing our robot in the maze, we learned several things about the mechanics of our robot. First, our robot was a little bit top heavy from the two batteries and large breadboard on its top tier. 
-- weight bearing towards bottoms
-- perfboarding everything/making a shield
+While iteratively testing our robot in the maze, we learned several things about the mechanics of our robot that caused inconsistency in maze-solving from trial to trial.
+
+One of the biggest issues was that our robot was a little bit top heavy from the two batteries and large breadboard that we initially placed on its top tier. The top-heaviness of our robot posed the issue of tipping over because the robot often would have to make sharp 90&deg; turns and there was high probability of collisions with other more robust robots. Our solution was to add more weight towards the bottom of our robot with the batteries that were already on board. We were going to add additional weighted plates, but our robot seemed robust enough after this fix.
+
+To even further lighten the weight of the robot's top tier, we rebuilt half our breadboard circuit onto a perfboard, and started building the other half onto another perfboard that would be a shield that seamlessly snapped onto the top of our Arduino. Despite the fact that we did spend time remaking the circuit on these perfboards, they never replaced the breadboard and make it onto our actual robot. We were on tight time before the competition, and chose to spend more of our efforts writing better software for our robot. We were also concerned that placing the perfboards 1-2 nights before the competition was too risky because it didn't give us a lot of time to figure out why some wiring might have gone wrong. Thus, we would have loved to see our robot more wire-free, but simply ran out of time.
+
+Original (and final) breadboard circuit:
+<p align="center">
+  <img src="/images/breadboard.jpg" width="300px" height="300px"/>
+</p>
+Perfboard circuit intended to replace breadboards:
+<p align="center">
+  <img src="/images/perf.jpg" width="300px" height="300px"/>
+</p>
 
 #### Speed vs Searching Algorithm Tradeoff
 - How our larger wheels didn't work out for us
