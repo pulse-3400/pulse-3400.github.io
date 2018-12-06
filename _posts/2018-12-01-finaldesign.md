@@ -7,7 +7,9 @@ background-image: ourrobot2.jpg
 
 ---
 
-
+<p align="center">
+  <img src="/images/finalrobot.jpg" width="600px" height="450px"/><br/>
+</p>
 
 Throughout the Fall 2018 semester, we created a robot that could:
 
