@@ -120,7 +120,15 @@ While we recognized that we should have used larger wheels from day 1, re-writin
 
 
 #### Debugging
-- LED indicators
+We added LED indicators so that while our robot was driving we could tell what state it was in. We used LEDs to verify the following:
+- Wall sensing (also meant robot was at new location)
+- Robot detection sensing
+- Line correcting
+- Entire maze searched
+
+<p align="center">
+  <img src="/images/leds.jpg" width="300px" height="300px"/>
+</p>
 
 ### Ideas for Future Improvements
 - Schmitt triggers to make line sensors digital inputs
