@@ -8,5 +8,22 @@ background-image: lab2-cover.png
 ---
 
 ## Final Competition
+After spending hours upon hours in lab, we were very excited on competition day to see our robot compete. 
+<p align="center">
+  <img src="/images/team.jpg" width="700px" height="429px"/><br/>
+  <i>Team Pulse on Competition Day.</i>
+</p>
+
 In round 1, we competed against teams 2, 3, and 4. In round 2, we competed against teams 2 and 3. 
-Overall, we placed ___ in the competition.
+Unfortunately, our robot's performance was not what we had expected.
+
+**Day of Competition**
+{% include post_youtube.html id="EsdIOOgrcZw" %}
+
+
+**Day before the Competition**
+{% include post_youtube.html id="tNI07SRk_yc" %}
+
+We explain why we believe our robot was faulty during the competition in our [final robot design](https://pulse-3400.github.io/aboutus/finaldesign.html).
+
+Congrats to [Team Angry](https://ece3400team28.github.io/website/), who won the competition!
