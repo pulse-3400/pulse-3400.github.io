@@ -29,7 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Our Team
-  text: <b>Rebecca Bell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sidarth Giddu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alexander Hatzis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chloe Kuo</b><br/>  <br/>We are Cornell Electrical & Computer Engineering students who have designed and fabricated an autonomous robot that can navigate and map out a maze with treasures in the shortest possible time. This robot is a [ECE 3400](https://cei-lab.github.io/ece3400-2018/) project.
+  text: <b>Rebecca Bell&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sidarth Giddu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alexander Hatzis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chloe Kuo</b><br/>  <br/>We are Cornell Electrical & Computer Engineering students who have designed and fabricated an autonomous robot that can navigate and map out a maze with treasures in the shortest possible time. This robot is an [ECE 3400](https://cei-lab.github.io/ece3400-2018/) project.
 # - displayed at the bottom
 closing-head: ECE 3400
 closing-para: Intelligent Physical Systems
