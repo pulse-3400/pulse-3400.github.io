@@ -116,7 +116,7 @@ We were able to increase the speed of our robot by replacing our wheels with one
 Testing robot with larger wheels--uncalibrated controls and general faultiness:
 {% include post_youtube.html id="M4xqZ2GRrLY" %}
 
-While we recognized that we should have used larger wheels from day 1, re-writing and calibrating our robot was difficult in the short amount of time during the competition. We also figured that covering more ground in a short amount of time may have caused more collisions with other robots, and that our robot would be better off solving the maze more efficiently rather than more quickly. We switched our wheels back to the original, smaller ones, and wrote an improved maze-searching algorithm, which we describe above.
+While we recognized that we should have used larger wheels from day 1, re-writing and calibrating our robot's algorithm was difficult in the short amount of time during the competition. We also figured that covering more ground in a short amount of time may have caused more collisions with other robots, and that our robot would be better off solving the maze more efficiently rather than more quickly. We switched our wheels back to the original, smaller ones, and wrote an improved maze-searching algorithm, which we describe above.
 
 
 #### Debugging
