@@ -18,7 +18,7 @@ In round 1, we competed against teams 2, 3, and 4. In round 2, we competed again
 Unfortunately, our robot's performance was not what we had expected, and we didn't make it to the round 3 like we had hoped.
 
 **Day of Competition**
-{% include post_youtube.html id="EsdIOOgrcZw" %}
+{% include post_youtube.html id="hEEImKPc57E" %}
 
 
 **Day before the Competition**
