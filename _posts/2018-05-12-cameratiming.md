@@ -24,11 +24,13 @@ HREF is the clock that determines when a row is ready to be read. The positive e
 
 VSYNC is the clock that determines when the frame of an image is ready to be read. The negative edge of VSYNC determines the start of a frame of an image and the positive edge determines the end of a frame of an image. This means that whenever VSYNC is low, the frame of an image is ready to be read. 
 
-C0 is a 24MHz clock. It has a duty cycle of 50%.
+C0 is a 24MHz clock. It has a duty cycle of 50%. This clock should be used instead of the 24MHz clocks given.
 
-C1 is a 25MHz clock. It has a duty cycle of 50%. Use this clock instead of CLOCK_50 because the other clocks are phase-locked to this clock. 
+C1 is a 25MHz clock. It has a duty cycle of 50%. This clock should be used instead of the 25MHz clocks given.
 
-C2 is a 50MHz clock. It has a duty cycle of 50%.
+C2 is a 50MHz clock. It has a duty cycle of 50%. Use this clock instead of CLOCK_50 because the other clocks are phase-locked to this clock. 
+
+C0, C1, and C2 are used as inputs to the RAM M9K module, the VGA Driver module, and the image processor module. To determine which one, look at what the clock is being used for and decide how fast reading and writing needs to happen. 
 
 ### Timing Diagram
 Here is an example of a timing diagram. In this example, a new row begins after 2 bytes are read and a new frame is ready to be read after 3 rows.
@@ -49,4 +51,4 @@ Here is an example of a timing diagram. In this example, a new row begins after 
 </p>
 
 ### Clocks in the Downsampler
-Based on the clocks, the down sampler should take in the pixel values, update the x and y address, and set the value of write enable. 
+Based on the clocks (PCLK, HREF, and VSYNC), the down sampler should take in the pixel values, update the x and y address, and set the value of write enable. 
