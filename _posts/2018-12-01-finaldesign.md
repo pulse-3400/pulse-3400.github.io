@@ -108,8 +108,16 @@ Another mechanical adjustment we made was to our line sensors. Our line sensors 
 
 To remedy these issues, we moved the line sensors a few millimeters higher than they were, and tightened the screws that held them in place. Moving the line sensors even the smallest bit higher, however, completely changed the thresholds we initially coded into them. We had to iteratively test differences from white lines and black tiled mats and adjust the thresholds in our code accordingly. While our line sensors seemed to never quite work as well as they used to due to various lighting changes, rough spots on the mat, and changed threshold by us, they were able to sense the white lines relatively well.
 
-#### Speed vs Searching Algorithm Tradeoff
-- How our larger wheels didn't work out for us
+#### Robot Speed vs Searching Algorithm Tradeoff
+Before we produced an improved path planning algorithm, one of our earlier thoughts was to work on improving the speed of our robot. The idea was that we could just keep our simple maze-searching algorithm because increasing our speed would allow the robot to traverse through the maze more quickly and cover more ground, and because increasing the speed didn't initially seem difficult. However, we encountered many problems.
+
+We were able to increase the speed of our robot by replacing our wheels with ones of larger diameter. While relatively easy to do, we also had to lower the line sensors because they sat higher with the new, larger wheels. With this, our line sensing was now not calibrated and had to be precisely re-calibrated, which took a long time due to their sensitivity. Additionally, our controls algorithm was flawed with larger wheels, as the robot sometimes couldn't make quick enough corrections with its quicker speed.
+
+Testing robot with larger wheels--uncalibrated controls and general faultiness:
+{% include post_youtube.html id="M4xqZ2GRrLY" %}
+
+While we recognized that we should have used larger wheels from day 1, re-writing and calibrating our robot was difficult in the short amount of time during the competition. We also figured that covering more ground in a short amount of time may have caused more collisions with other robots, and that our robot would be better off solving the maze more efficiently rather than more quickly. We switched our wheels back to the original, smaller ones, and wrote an improved maze-searching algorithm, which we describe above.
+
 
 #### Debugging
 - LED indicators
