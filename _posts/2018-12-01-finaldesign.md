@@ -104,6 +104,10 @@ Perfboard circuit intended to replace breadboards:
   <img src="/images/perf.jpg" width="300px" height="300px"/>
 </p>
 
+Another mechanical adjustment we made was to our line sensors. Our line sensors sometimes got loose on our robot, which created two issues 1) inaccurate line sensing due to changed proximity from the ground and 2) fall low enough and drag on the maze, and sometimes get caught causing immobility of entire robot.
+
+To remedy these issues, we moved the line sensors a few millimeters higher than they were, and tightened the screws that held them in place. Moving the line sensors even the smallest bit higher, however, completely changed the thresholds we initially coded into them. We had to iteratively test differences from white lines and black tiled mats and adjust the thresholds in our code accordingly. While our line sensors seemed to never quite work as well as they used to due to various lighting changes, rough spots on the mat, and changed threshold by us, they were able to sense the white lines relatively well.
+
 #### Speed vs Searching Algorithm Tradeoff
 - How our larger wheels didn't work out for us
 
