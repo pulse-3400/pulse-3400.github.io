@@ -23,6 +23,12 @@ Our robot competed in rounds 1 and 2 during the ECE 3400 Competition during [Cor
 ### Day before the Competition
 {% include post_youtube.html id="tNI07SRk_yc" %}
 
+We mapped a small portion of the maze (some incorrect wall detections due to other robots and collisions):
+<p align="center">
+  <img src="/images/team.jpg" width="300px" height="280px"/><br/>
+  <i>Last Maze Mapping during Round 2.</i>
+</p>
+
 We explain why we believe our robot was faulty during the competition in our [final robot design](https://pulse-3400.github.io/aboutus/finaldesign.html).
 
 **Congrats to [Team Angry](https://ece3400team28.github.io/website/), who won the competition!**
