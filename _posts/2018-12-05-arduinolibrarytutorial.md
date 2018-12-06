@@ -35,7 +35,9 @@ This is a great example of a class that we can create, then use in our main Ardu
 #### Creating a Header Files
 We'll be creating the ```Maze``` object's class in a header file. Open up the Arduino sketch that your robot is running, or a new Arduino sketch. Type cmd+shift+n (Mac) or ctrl+shift+n (Windows) and enter the name of your object with ".h" at the end:
 
-![](creatingclass.png)
+<p align="center">
+  <img src="/images/creatingclass.png" width="600px" height="722px"/><br/>
+</p>
 
 This creates a Maze.h file in the same directory as your sketch.
 
