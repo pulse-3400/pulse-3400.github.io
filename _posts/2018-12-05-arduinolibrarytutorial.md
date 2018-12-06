@@ -5,7 +5,7 @@ tags:
 permalink: /arduinolibrarytutorial/
 categories:
   - tutorials
-background-image: flickr-froderik.jpg
+background-image: tutorial1.png
 ---
 
 
