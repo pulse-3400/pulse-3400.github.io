@@ -27,4 +27,4 @@ We explain why we believe our robot was faulty during the competition in our [fi
 
 **Congrats to [Team Angry](https://ece3400team28.github.io/website/), who won the competition!**
 
-Despite the outcome of the competition, we were happy to have built a successful intelligent physical system, learned a lot of new things, and enjoyed working with each other. Thanks to Professor Petersen and all of the TAs who helped us build a robot!
+Despite the outcome of the competition, we were happy to have built a successful intelligent physical system, learned a lot of new things, and enjoyed working with each other. **Thanks to Professor Petersen and all of the TAs who helped us build a robot!**
