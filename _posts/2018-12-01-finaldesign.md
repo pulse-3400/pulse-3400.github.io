@@ -97,11 +97,11 @@ To even further lighten the weight of the robot's top tier, we rebuilt half our 
 
 Original (and final) breadboard circuit:
 <p align="center">
-  <img src="/images/breadboard.jpg" width="300px" height="300px"/>
+  <img src="/images/breadboard.jpg" width="660px" height="450px"/>
 </p>
 Perfboard circuit intended to replace breadboards:
 <p align="center">
-  <img src="/images/perf.jpg" width="300px" height="300px"/>
+  <img src="/images/perf.jpg" width="600px" height="450px"/>
 </p>
 
 #### Speed vs Searching Algorithm Tradeoff
