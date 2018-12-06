@@ -6,7 +6,7 @@ categories: aboutus
 background-image: ourrobot2.jpg
 
 ---
-### Our Finalized Robot
+## Our Finalized Robot
 
 <p align="center">
   <img src="/images/finalrobot.jpg" width="600px" height="450px"/><br/>
