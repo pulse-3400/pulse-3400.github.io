@@ -47,14 +47,14 @@ Finally, we had a basic array stack with push() and pop() methods associated wit
 These are the main building blocks for our maze searching system. In order to see how they work together to actually achieve exploration, first consider the getTurn function, which is the first function called. When the function is called, the wall sensors are polled on the front, left and right. The robot can see eight possible configurations of walls in front of it at any given moment, pictured below:
 
 <p align="center">
-  <img src="/images/finalrobot0.PNG" /><br/>
+  <img src="/images/finalrobot0.PNG width="600px" height="450px" /><br/>
       <i>Possible wall configurations visible to the robot at a square</i>
 </p>
 
 The robot had two modes, essentially, while searching the maze. First, it had a basic exploration mode, which works as follows. Based on each of these configurations of walls, there are different directions that the robot can possibly travel, denoted by the orange arrows.
 
 <p align="center">
-  <img src="/images/finalrobot1.PNG" /><br/>
+  <img src="/images/finalrobot1.PNG width="600px" height="450px" /><br/>
       <i>The travelable directions at a square based on the walls surrounding it</i>
 </p>
 
@@ -97,11 +97,11 @@ To even further lighten the weight of the robot's top tier, we rebuilt half our 
 
 Original (and final) breadboard circuit:
 <p align="center">
-  <img src="/images/breadboard.jpg" width="660px" height="450px"/>
+  <img src="/images/breadboard.jpg" width="300px" height="300px"/>
 </p>
 Perfboard circuit intended to replace breadboards:
 <p align="center">
-  <img src="/images/perf.jpg" width="600px" height="450px"/>
+  <img src="/images/perf.jpg" width="300px" height="300px"/>
 </p>
 
 #### Speed vs Searching Algorithm Tradeoff
