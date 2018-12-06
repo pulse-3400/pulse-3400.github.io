@@ -34,17 +34,17 @@ C2 is a 50MHz clock. It has a duty cycle of 50%.
 Here is an example of a timing diagram. In this example, a new row begins after 2 bytes are read and a new frame is ready to be read after 3 rows.
 
 <p align="center">
-  <img src="/images/PCLK.png" width="896px" height="512px"/><br/>
+  <img src="/images/PCLK.png" width="538px" height="307px"/><br/>
   <i>PCLK Timing Diagram</i>
 </p>
 
 <p align="center">
-  <img src="/images/HREF.png" width="896px" height="512px"/><br/>
+  <img src="/images/HREF.png" width="538px" height="307px"/><br/>
   <i>HREF Timing Diagram</i>
 </p>
 
 <p align="center">
-  <img src="/images/VSYNC.png" width="896px" height="512px"/><br/>
+  <img src="/images/VSYNC.png" width="538px" height="307px"/><br/>
   <i>VSYNC Timing Diagram</i>
 </p>
 
