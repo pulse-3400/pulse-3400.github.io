@@ -131,6 +131,9 @@ We added LED indicators so that while our robot was driving we could tell what s
   <img src="/images/leds.jpg" width="300px" height="300px"/>
 </p>
 
+### Camera and FPGA Integration
+Nearing towards the final competition, our robot did not have our FPGA and camera integrated into its system, despite the fact that our camera with FPGA was properly detecting color and shapes. Integration into our robot's existing code was proving difficult, and our robot was running low on physical mounting space. We thought our time was better spent on writing a better searching algorithm, and ensuring that basic line sensing and wall-avoidance was working on our robot from previous changes. We anticipated that we would be able to mount the camera with some degree of success, but simply didn't allocate enough time for us to wrap our heads around to why it was not working.
+
 ### Ideas for Future Improvements
 With deadlines quickly approaching, it was difficult for us to implement everything we had originally envisioned onto our robot. Here, we list several improvements that we would have liked to seen on our robot during the competition:
 - Schmitt trigger circuit to make line sensors digitally output. Our line sensors were analog sensors, but we always desired to use or build digital ones. We wrote out plans to build Schmitt triggers to convert the line sensors' analog inputs to digital output signals. We would not have had to program thresholds, and would have saved 3 analog pins if this were the case. We envisioned using potentiometers to dial our line sensors' sensitivity.
