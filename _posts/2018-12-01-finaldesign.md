@@ -13,17 +13,15 @@ background-image: ourrobot2.jpg
 </p>
 
 Throughout the Fall 2018 semester, we created a robot that could:
+- Navigate a maze
+- Start when a 660 Hz noise is detected
+- Use sensors to follow lines and detect walls
+- Avoid other robots using IR detection
+- Use depth first search and path planning algorithm to determine how to navigate through the maze
+- Communicate using radios to update a GUI 
+- Detect treasures using image processing
 
-* Navigate a maze
-* Start when a 660 Hz noise is detected
-* Use sensors to follow lines and detect walls
-* Avoid other robots using IR detection
-* Use depth first search and path planning algorithm to determine how to navigate through the maze
-* Communicate using radios to update a GUI 
-* Detect treasures using image processing
-
-Final robot cost: $86.00
-
+**Our final robot cost: $86.00**
 - Pololu Line Sensors (3 @ $3.00): $9.00
 - Short Range IR sensors (3 @ $7.00): $21.00
 - Camera: $14.00
@@ -31,7 +29,8 @@ Final robot cost: $86.00
 - Arduino Uno: $16.00
 
 
-### Modifications to Final Robot Design
+### Modifications to Robot Design
+Beyond the baseline requirements from the labs and milestones required in class, we made several improvements to our robot so that it would have the best chance when competing against other robots in the final competition. We document these additions and improvements in this section.
 
 #### Better Maze-Solving Algorithm
 
