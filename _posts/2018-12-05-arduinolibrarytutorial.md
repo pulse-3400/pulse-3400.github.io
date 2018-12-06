@@ -1,6 +1,6 @@
 ---
-title: Tutorials
-excerpt: Learn More!
+title: Tutorials1
+excerpt: tutorials1
 tags: 
 permalink: /arduinolibrarytutorial/
 categories:
